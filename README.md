@@ -1,22 +1,43 @@
-# SONGS-ANALYSIS-PROJECT 
-## List of main folders
-1. Data Cleaning and Preparation
-2. Exploratory Data Analysis
-3. Data Storytelling
-4. Original Dataset
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#0f111a"/>
 
+  <!-- Title -->
+  <text x="50%" y="60" text-anchor="middle" font-family="Verdana" font-size="32" fill="#1DB954">
+    🎵 Songs Analysis Project
+  </text>
 
-## Folder organisation 
-### 1. Data Cleaning and Preparation 
-- This folder contains notebook solutions for how the Data cleaning team did their work.
-- There's also the clean prepared dataset in this folder which is a final result that the team settled with.
+  <!-- Subtitle -->
+  <text x="50%" y="100" text-anchor="middle" font-family="Verdana" font-size="18" fill="#ffffff">
+    Explore music trends & insights with Python, Pandas, and Visualization
+  </text>
 
-### 2. Exploratory Data Analysis 
-- The folder contains all the analysis that the EDA team was able to come up with.
-- Please note that they used the clean dataset prepared by the Data Cleaning team.
+  <!-- Bars Visualization -->
+  <g transform="translate(100,150)">
+    <rect x="0"   y="50" width="20" height="50" fill="#1DB954">
+      <animate attributeName="height" values="50;80;50" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="50;20;50" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="40"  y="40" width="20" height="60" fill="#1DB954">
+      <animate attributeName="height" values="60;100;60" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="40;0;40" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="80"  y="60" width="20" height="40" fill="#1DB954">
+      <animate attributeName="height" values="40;70;40" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="60;30;60" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="120" y="30" width="20" height="70" fill="#1DB954">
+      <animate attributeName="height" values="70;100;70" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="30;0;30" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="160" y="50" width="20" height="50" fill="#1DB954">
+      <animate attributeName="height" values="50;90;50" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="50;10;50" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-### 3. Data Storytelling 
-- Basically contains final and general analysis done be the Data storytelling team.
-
-### 4. Original Dataset 
-- The original Dataset from kaggle is found here.
+  <!-- Footer -->
+  <text x="50%" y="280" text-anchor="middle" font-family="Verdana" font-size="14" fill="#888">
+    Made with ❤️ by Tony | Python • Pandas • Matplotlib • Seaborn
+  </text>
+</svg>
